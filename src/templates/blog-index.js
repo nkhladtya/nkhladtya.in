@@ -1,5 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import {Helmet} from "react-helmet";
+
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -24,6 +26,10 @@ class BlogIndexTemplate extends React.Component {
 
     return (
       <Layout title={siteTitle}>
+        <Helmet>
+        <script src="https://unpkg.com/website-carbon-badges@^1/b.min.js" defer></script>
+        </Helmet>
+
         <SEO title="Posts" />
         <div
           style={{
