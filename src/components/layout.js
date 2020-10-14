@@ -1,4 +1,6 @@
 import React, { Component } from "react"
+import {Helmet} from "react-helmet";
+
 import { Link } from "gatsby"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import { VerticleButton as ScrollUpButton } from "react-scroll-up-button"
@@ -51,6 +53,10 @@ class Layout extends Component {
     )
 
     return (
+      <>
+      <Helmet>
+        <script src="https://unpkg.com/website-carbon-badges@^1/b.min.js" defer></script>
+        </Helmet>
       <div className="site-container">
         <div className="header-container">
           <Link className="header-title" to={`/`} title="Home">
@@ -109,6 +115,7 @@ class Layout extends Component {
           />
         </ScrollUpButton>
       </div>
+      </>
     )
   }
 }
