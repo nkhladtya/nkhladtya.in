@@ -1,0 +1,11 @@
+{
+  "title": "NKHL ADTYA",
+  "siteUrl": "https://nikhladitya.in/",
+  "author": "Nikhil Aditya",
+  "description": "nkhladtya.in(Nikhil Aditya) is a front-end web developer, nikhladitya.in is his personal portfolio website as well as his blog site, he writes about music, coding, productivity, stoicism, among other things.",
+  "github_siteUrl": "config.siteUrl",
+  "github_title": "config.title",
+  "github_description": "config.description",
+  "github_author": " config.author",
+  "keywords": []
+}
